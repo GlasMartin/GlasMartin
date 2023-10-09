@@ -5,14 +5,17 @@ img {
 
 #eka {
     background-color: rgb(218, 172, 117);
+    border-radius: 10px;
 }
 
 #toka {
     background-color: rgb(234, 203, 164);
+    border-radius: 10px;
 }
 
 #kolmas {
     background-color: blanchedalmond;
+    border-radius: 10px;
 }
 
 body {
@@ -39,3 +42,13 @@ h1 {
    color: rgb(255, 183, 0);
    font-size: 165px;
 }
+
+nav a {
+    margin: 50px;
+}
+
+nav {
+    text-align: center;
+
+}
+
