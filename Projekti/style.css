@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.header {
+    min-height: 35vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30.07))
+    ,url(kuvat/tausta2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:right;
+    align-items: center;    
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: firebrick;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+}
+
+.Otsikko {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Otsikko h1{
+    font-size: 70px;
+}
+
+.Otsikko p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.otsikko-nappi {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.otsikko-nappi:hover {
+    border: 2px solid #f44336;
+    background-color: #f44336;
+    transition: 0.7s;
+
+}
+
+/*------- Sisältö-----------*/
+
+.Eka {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Eka h1{
+    font-size: 35px;
+}
+
+.Eka p {
+    color: black;
+    line-height: 20px;
+    padding: 10px;
+}
+/*----------KORTIT----------*/
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.kortti {
+    background: #04091e;
+    border-radius: 5px;
+    width: 400px;
+    margin: 5px;
+    padding: 20px 20px;
+    box-shadow: 0px 2px 4px rgba(4,9,30,0.7);
+}
+
+.kortti h2 {
+    margin: 20px 0 20px;
+}
+
+.kortti p {
+    margin-bottom: 20px;
+}
+
+.kortti-kuva {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+ 
+}
+
+.kuva-1 {
+    background-image: url('kuvat/wimbledon.png');
+}
+
+.kuva-2 {
+    background-image: url('kuvat/USopen.jpg');
+}
+
+.kuva-3 {
+    background-image: url('kuvat/rg.jpg');
+}
+
+.kuva-4 {
+    background-image: url('kuvat/AU.jpg');
+}
+
+.kortti-nappi {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(4,9,30,0.9);
+}
+
+.kortti-nappi:hover {
+    border: 2px solid #f44336;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4px rgba(54, 7, 7, 0.7);
+    transition: 0.7s;
+}
+
+@media (max-width: 1816px) {
+    .kortti {width: calc(50% - 50px);}
+
+}
+
+@media (max-width: 700px) {
+    .kortti {width: calc(100% - 50px);}
+    
+}
+
+/*--- aside----*/
+
+aside {
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #04091e;
+}
+
+.aside-kortti {
+    display: flex;
+
+}
+
+.aside-kuva {
+    width: 40%;
+
+}
+
+.aside-kuva img {
+    width: 100%;
+    min-height: 100%;
+    opacity: 50%;
+}
+
+.aside-teksti {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.aside-teksti h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.aside-teksti p {
+    font-size: 20px;
+}
+
+.aside-nappi {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(4,9,30,0.9);
+    margin-top: 25px;
+}
+
+.aside-nappi:hover {
+    border: 2px solid #f44336;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4px rgba(54, 7, 7, 0.7);
+    transition: 0.7s; }
+
+@media(max-width:1360px) {
+    .aside-kortti {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-kuva {
+        width: 100%;
+    }
+
+    .aside-teksti {
+        width: 100%;
+    }
+
+    .aside-teksti p {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .aside-teksti h2 {
+        font-size: 30px;
+    }
+}
+   
+
+
+
+       
+
+
+
+
+   
+
+
+
+
+
+
+
