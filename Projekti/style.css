@@ -6,6 +6,9 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 .header {
     min-height: 35vh;
@@ -63,6 +66,7 @@ nav ul li:hover::after{
 }
 
 .Otsikko h1{
+    font-family: 'Rubik', sans-serif;
     font-size: 70px;
 }
 
@@ -101,6 +105,7 @@ nav ul li:hover::after{
 }
 
 .Eka h1{
+    font-family: 'Rubik', sans-serif;
     font-size: 35px;
 }
 
@@ -128,6 +133,7 @@ nav ul li:hover::after{
 }
 
 .kortti h2 {
+    font-family: 'Rubik', sans-serif;
     margin: 20px 0 20px;
 }
 
@@ -225,6 +231,7 @@ aside {
 }
 
 .aside-teksti h2 {
+    font-family: 'Rubik', sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
 }
@@ -253,6 +260,34 @@ aside {
     background-color: #f44336;
     box-shadow: 0px 2px 4px rgba(54, 7, 7, 0.7);
     transition: 0.7s; }
+
+
+    /*---Footteri---*/
+
+.Väliotsikko {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Väliotsikko h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.alatunniste {
+    margin-top: 5%;
+    background: rgb(4,9,30);
+   
+}
+
+.alatunniste ul li {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
+
 
 @media(max-width:1360px) {
     .aside-kortti {
@@ -292,6 +327,8 @@ aside {
    
 
     }
+
+    nav {font-size: 10px;}
 
 }
 

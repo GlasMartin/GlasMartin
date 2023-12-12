@@ -1,0 +1,60 @@
+
+
+.d-block {
+    width:100%
+}
+
+.carousel-item {
+    width: 100%;
+    max-height: 500px;
+}
+
+#otsikko {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.sisältö {
+    padding: 10px 10px 5px 10px;
+    
+}
+
+.btn-primary {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#Grandslam {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sisältö1 {
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+aside  {
+    margin-top: 5%;
+   
+}
+
+.card {
+    margin: auto;
+
+}
+
+.w-100 {
+    margin:auto
+ 
+}
+
+
+

@@ -9,6 +9,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@100;400&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -17,7 +20,7 @@
         <header class="header">
             <nav>
                 <ul>
-                    <li><a href="">LISÄTIETOJA</a></li>
+                    <li><a href="#scroll">LISÄTIETOJA</a></li>
                 </ul>
             </nav>
          
@@ -25,7 +28,7 @@
             <div class="Otsikko">
                 <h1>Tennis</h1>
                 <p>Tältä nettisivulta löydät tietoa tennisturnauksista sekä tennispelaajista.</p>
-                <a href="" class="otsikko-nappi">NAPPI</a>
+                <a href="#scroll1" class="otsikko-nappi">TURNAUKSET</a>
             </div>
 
         </header>
@@ -33,12 +36,16 @@
         <!-- pääkontsa -->
 
     <main>
+        <div id="scroll1">
         <div class="Eka">
             <h1>Grand Slam</h1>
             <p>Grand Slam -turnaukset ovat tennismaailman huipentuma, koostuen neljästä suuresta kilpailusta: Australian avoimet, Ranskan avoimet (Roland Garros), Wimbledon ja Yhdysvaltain avoimet. Jokainen turnaus on ainutlaatuinen omalla alustallaan ja perinteillään. Näissä kisoissa pelaajat tavoittelevat mestaruuksia ja paikkaansa tennishistoriassa.</p>
         </div>
+        </div>
+
 
         <div class="row">
+            
 
             <div class="kortti">
                 <div class="kortti-kuva kuva-4"></div>
@@ -83,19 +90,15 @@
                     Wimbledonin tunnelmaa leimaa myös perinteiset valkoiset peliasut.
                 </p>
                 <a href="https://www.wimbledon.com/" class="kortti-nappi">Lue lisää</a>
+           
             </div>
-
         </div>
-
-
-
-      
     </main>
 
-
     <aside>
-
+        <div id="scroll">
         <div class="container">
+            
             <div class="aside-kortti">
                 <div class="aside-kuva">
                         <img src="kuvat/djoko.jpeg">
@@ -108,17 +111,35 @@
                          Nadal, "massakuningas", on voittanut lukuisia Ranskan avoimia, Federerin elegantti pelityyli on tehnyt hänestä Wimbledonin mestarin, kun taas Djokovicin järkkymätön tahto on tuonut menestystä Australian ja Yhdysvaltain avoimissa.
                         Yhdessä nämä kolme legendaarista pelaajaa ovat määritelleet nykypäivän tenniksen huipun ja luoneet unohtumattomia hetkiä Grand Slam -areenoilla.</p>
 
-                    <a href="" class="aside-nappi">Lue lisää modernin ajan <br>
+                    <a href="boot/index.html" class="aside-nappi">Lue lisää modernin ajan <br>
                     tennislegendoista</a>                      
                 </div>
-
-                
-
-
-
+           
             </div>
         </div>
-            
+        </div>
+ </aside>
+
+
+       <!--footter-->
+
+<footer>
+    <div class="Väliotsikko">
+        <h1>Sivussa käytetyt CSS elementit</h1>
+        <p>Alatunnisteesta löydät listan käytetyistä <br> CSS elementeistä
+        </p>
+    </div>
+
+    <div class="alatunniste">
+        <ul>
+            <li>Taustakuva</li>
+            <li>Liukuväri</li>
+            <li>Ajoitettu näppäin "animaatio"</li>
+            <li>Horisonttaali asettelu kortille</li>
+            <li>Scroll smooth</li>
+            <li></li>
+        </ul>
+    </div>
 
 
 
@@ -130,17 +151,14 @@
 
 
 
-    </aside>
 
+
+
+</footer>
 
         
 
 
-        <!-- jotain ala kontsaa-->
-
-        <!--footter-->
-
-        
 
 
 
@@ -148,23 +166,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
+  </body>
